@@ -6,12 +6,18 @@
         "Laravel", "Invoices", "Generate", "Create",
         "Open Source", "Customers", "PDF", "Erik Campobadal"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fifco/dompdf/"
+        }
+    ],
     "require": {
         "ext-bcmath": "*",
         "illuminate/support": "5.*",
         "illuminate/view": "5.*",
         "nesbot/carbon": "^1.22",
-        "dompdf/dompdf": "^0.8"
+        "dompdf/dompdf": "dev-tempfix"
     },
     "license": "MIT",
     "authors": [
